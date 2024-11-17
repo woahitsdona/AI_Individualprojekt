@@ -17,7 +17,7 @@ Da im Rahmen dieses Projekts nicht dasselbe Modell und derselbe Datensatz wie in
 
 ## Verzeichnisstruktur
 
-### Individualprojekt_AI_HS24_Liridona_C.py
+#### Individualprojekt_AI_HS24_Liridona_C.ipynb
 
 ## Bibliotheken und Tools
 
