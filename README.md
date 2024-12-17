@@ -7,17 +7,29 @@ Die Verarbeitung von Bildern in neuronalen Netzen ist oft herausfordernd, da hoh
 Das Ziel dieses Projekts ist es, ein tieferes Verständnis für diese Problematik zu entwickeln. Es soll analysiert werden, wie sich gewisse Vorverarbeitungsmethoden auf die Segmentierungsqualität auswirken um ausreichend aussagekräftige Ergebnisse für die Berechnung der IoU-Statistik zwischen den Ground-Truth-Masken und den Modellvorhersagen zu liefern. Durch diese Analyse soll ein besseres Verständnis für die Balance zwischen Speicherbedarf, Bildgrösse und Modellgenauigkeit geschaffen werden.
 
 ### Projektziele
-- Analyse des Speicherbedarfs von Deep-Learning-Modellen.
-- Untersuchung von Bildvorverarbeitungsschritten in Python, wie Resizing und Normalisierung.
-- Validierung der semantischen Segmentierung bei kleinen vs. grösseren Datensätzen.
+- Analyse Auswirkungen Kompression/Auflösungsreduktion auf Modellgenauigkeit (IoU)
+- Validierung einfache vs. komplexere Task
  
-### Modell und Daten
-Da im Rahmen dieses Projekts nicht dasselbe Modell und derselbe Datensatz wie in der Bachelorarbeit  verwendet werden dürfen, erfolgt die Analyse der Fragestellungen mit dem klassischen U-Net-Modell und dem Cityscapes-Datensatz. Die Labels und die Thematik der Segmentierung sind thematisch passend zur Bachelorarbeit, jedoch ohne direkte Überschneidung, um die Eigenständigkeit des Projekts zu gewährleisten.
+### Daten
+- 122 Bilder aus dem Cityscape-Datensatz
+- Einfache Task: segmentiert mit Deeplabv3
+- Komplexere Task: segmentiert mit OneFormer (Thesis Bezug)
+
+### Vorgehen
+- Speicheranalyse: Vergleich Speicherbedarfs Modelle
+- Bildkompression: Vergleich Kompressionsmethoden
+- Streaming: Test von Stream-Reading-Ansätzen für grosse Datasets (Thesis Bezug)
+- Qualität: Bewertung IoU für komprimierte vs. unkomprimierte Bilder & einfache vs. komplexere Task (ausgewählte Klassen)
+
+### Verwendete Datensätze
+- Cordts u. a., „The Cityscapes Dataset for Semantic Urban Scene Understanding“. (Quelle: http://arxiv.org/abs/1604.01685)
+- 
+### Weitere Quellen
 
 
 ## Verzeichnisstruktur
-
 #### Individualprojekt_AI_HS24_Liridona_C.ipynb
+
 
 ## Bibliotheken und Tools
 
