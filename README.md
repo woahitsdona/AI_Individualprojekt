@@ -11,7 +11,7 @@ Das Ziel dieses Projekts ist es, ein tieferes Verständnis für diese Problemati
 - Validierung einfache vs. komplexere Task
  
 ### Daten
-- 122 Bilder aus dem Cityscape-Datensatz
+- 24 Bilder aus dem Cityscape-Datensatz
 - Einfache Task: segmentiert mit Deeplabv3
 - Komplexere Task: segmentiert mit OneFormer (Thesis Bezug)
 
