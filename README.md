@@ -23,21 +23,30 @@ Das Ziel dieses Projekts ist es, ein tieferes Verständnis für diese Problemati
 
 ### Verwendete Datensätze
 - Cordts u. a., „The Cityscapes Dataset for Semantic Urban Scene Understanding“. (Quelle: http://arxiv.org/abs/1604.01685)
-- 
-### Weitere Quellen
-
+  
+### Weitere Quellen:
+- DeeplabV3: https://arxiv.org/pdf/1706.05587
+- OneFormer: http://arxiv.org/abs/2211.06220
+- HuggingFace: https://huggingface.co/
+- DeeplabV3 Benchmark (via Paperswithcode): https://paperswithcode.com/method/deeplabv3
+- OneFormer Benchmark (via Paperswithcode): https://paperswithcode.com/paper/oneformer-one-transformer-to-rule-universal
 
 ## Verzeichnisstruktur
-#### Individualprojekt_AI_HS24_Liridona_C.ipynb
+├── Individualprojekt_AI_HS24_Liridona_C.ipynb  # Hauptnotebook des Projekts
+├── README.md                                   # Projektbeschreibung und Anleitung
+└── zurich_000002_000019_leftImg8bit.png        # Beispielbild aus dem Cityscapes-Datensatz
 
+Abgabevideo: Das Video, welches die Ergebnisse des Projekts demonstriert, ist auf ILIAS im Abgabeordner zu finden.
 
 ## Bibliotheken und Tools
+- Hauptframeworks: TensorFlow 2.17.0, PyTorch (torch, torchvision)
+- Datenhandling: datasets, Pillow, JSON
+- Analyse & Visualisierung: NumPy, Matplotlib, tqdm
+- Systemintegration: CUDA 12.1
 
-
-
-
-
-
-
-
-
+## Anleitung zur Ausführung des Codes
+1. Umgebung starten: Öffnen Sie "GPU Hub" und starten Sie ein Jupyter-Notebook-Server mit "TensorFlow 2.17.0 und GPU-Unterstützung".
+2. Projekt klonen:
+   git clone https://github.com/IhrRepository/AI_Individualprojekt.git
+   cd AI_Individualprojekt
+3. Notebook auführen: Öffnen Sie das Notebook Individualprojekt_AI_HS24_Liridona_C.ipynb in JupyterLab und führen Sie die Zellen sequenziell aus, um die Daten vorzubereiten, Modelle zu trainieren und Ergebnisse zu analysieren.
