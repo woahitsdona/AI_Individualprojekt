@@ -32,11 +32,10 @@ Das Ziel dieses Projekts ist es, ein tieferes Verständnis für diese Problemati
 - OneFormer Benchmark (via Paperswithcode): https://paperswithcode.com/paper/oneformer-one-transformer-to-rule-universal
 
 ## Verzeichnisstruktur
-├── Individualprojekt_AI_HS24_Liridona_C.ipynb  # Hauptnotebook des Projekts
-├── README.md                                   # Projektbeschreibung und Anleitung
-└── zurich_000002_000019_leftImg8bit.png        # Beispielbild aus dem Cityscapes-Datensatz
-
-Abgabevideo: Das Video, welches die Ergebnisse des Projekts demonstriert, ist auf ILIAS im Abgabeordner zu finden.
+- Individualprojekt_AI_HS24_Liridona_C.ipynb  # Hauptnotebook des Projekts
+- README.md                                   # Projektbeschreibung und Anleitung
+- zurich_000002_000019_leftImg8bit.png        # Beispielbild aus dem Cityscapes-Datensatz
+*Abgabevideo: Das Video, welches die Ergebnisse des Projekts demonstriert, ist auf ILIAS im Abgabeordner zu finden*
 
 ## Bibliotheken und Tools
 - Hauptframeworks: TensorFlow 2.17.0, PyTorch (torch, torchvision)
