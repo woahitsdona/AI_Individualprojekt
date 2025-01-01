@@ -39,13 +39,13 @@ Das Ziel dieses Projekts ist es, ein tieferes Verständnis für diese Problemati
 *Abgabevideo: Das Video, welches die Ergebnisse des Projekts demonstriert, ist auf ILIAS im Abgabeordner zu finden*
 
 ## Bibliotheken und Tools
-- Hauptframeworks: TensorFlow 2.17.0, PyTorch (torch, torchvision)
+- Hauptframeworks: Pytorch 2.3.1, (torch, torchvision)
 - Datenhandling: datasets, Pillow, JSON
 - Analyse & Visualisierung: NumPy, Matplotlib, tqdm
 - Systemintegration: CUDA 12.1
 
 ## Anleitung zur Ausführung des Codes
-1. Umgebung starten: Öffnen Sie "GPU Hub" und starten Sie ein Jupyter-Notebook-Server mit "TensorFlow 2.17.0 und GPU-Unterstützung".
+1. Umgebung starten: Öffnen Sie "GPU Hub" und starten Sie ein Jupyter-Notebook-Server mit "Pytorch 2.3.1 und GPU-Unterstützung".
 2. Projekt klonen:
    git clone https://github.com/IhrRepository/AI_Individualprojekt.git
    cd AI_Individualprojekt
